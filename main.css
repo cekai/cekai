@@ -127,10 +127,10 @@ margin-right: 10%;
 .premierbackground {
 padding: 2px;
 background: url('imgs/vlore.jpg');
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
+-webkit-background-size: auto;
+-moz-background-size: auto;
+-o-background-size: auto;
+background-size: auto;
 
 }
 .roundbackground {
@@ -151,40 +151,5 @@ background-size: cover;
 
 /* 2500 and up */	
 @media screen and (min-width:2500px) {
-  .meintro {
-text-align: center;
-border-radius: 50px;
-background: rgba(0, 0, 0, 0.6);
-color: white;
-padding: 1%;
-}
-
-.meintro i {
-margin-left: 10%;
-margin-right: 10%;
-}
-
-.premierbackground {
-padding: 2px;
-background: url('imgs/vlore.jpg');
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-
-}
-.roundbackground {
-	padding: 2%;
-	margin-top: 25px;
-	margin-bottom: 25px;
-	margin-left: auto;
-	margin-right: auto;
-	align-self: center;
-	align-content: center;
-	text-align: center;
-    border-radius: 50px;
-    background: rgba(255, 255, 255, 0.5);
-    width: auto;
-    height: auto;
-}
+ 
 }
