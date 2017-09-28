@@ -40,3 +40,85 @@ background-color: black;
 text-align: center;
 padding: 10px;
 }
+
+/* 550 and up */	
+@media screen and (min-width:550px) {
+  h2 {
+  font-size:5.5em;
+  }
+  section.intro {
+  width:66.6%;
+  }
+  aside.sidebar {
+  position:absolute;
+  right:0;
+  top:2.5%;
+  width:32.75%;
+  }
+  div.extra1 {
+  background:rgba(51,55,69,0.9);
+  bottom:0;
+  right:0;
+  position:fixed;
+  top:0;
+  width:30%;
+  z-index:1;
+  }
+  div.explanation {
+  float:left;
+  width:50%;
+  }
+  div.participation {
+  float:left;
+  width:49%;
+  }
+}
+
+/* 700 and up */	
+@media screen and (min-width:700px) {
+  body {
+  font-size:90%;
+  }
+}
+
+/* 800 and up */	
+@media screen and (min-width:800px) {
+  body {
+  font-size:100%;
+  }
+}
+
+/* 900 and up */	
+@media screen and (min-width:900px) {
+  body {
+  font-size:110%;
+  }
+}
+
+/* 1500 and up */	
+@media screen and (min-width:1500px) {
+  body {
+  font-size:125%;
+  }
+}
+
+/* 1800 and up */	
+@media screen and (min-width:1800px) {
+  body {
+  font-size:150%;
+  }
+}
+
+/* 2100 and up */	
+@media screen and (min-width:2100px) {
+  body {
+  font-size:175%;
+  }
+}
+
+/* 2500 and up */	
+@media screen and (min-width:2500px) {
+  body {
+  font-size:200%;
+  }
+}
